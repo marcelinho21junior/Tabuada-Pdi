@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Tabuada</h1>
+    <section>
+        <div>
+            <H4>Qual a tabuada voce deseja saber?</H4>
+            <input type="number" id="num">
+        </div>
+        <div>
+            <H4>Até que numero voce quer?</H4>
+            <input type="number" id="end" min="0">
+            <p class="alertDigiteAqui" id="alertDigiteAqui">Digite aqui!</p>
+        </div>
+        <button onclick="calcular()">Calcular</button>
+        <div id="tabuada">
+            Digite o numero da tabuada
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
